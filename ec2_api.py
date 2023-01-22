@@ -1,5 +1,8 @@
 import numpy as np
-from keras.preprocessing.image import load_img, img_to_array
+#from keras.preprocessing.image import load_img, img_to_array
+from tensorflow.keras.preprocessing.image import load_img
+from tensorflow.keras.utils import load_img
+#from keras_preprocessing.image import load_img, img_to_array
 from keras.models import load_model
 from flask import Flask, jsonify, request
 
